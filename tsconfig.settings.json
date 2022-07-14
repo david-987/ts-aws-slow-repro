@@ -12,7 +12,9 @@
         "declaration": true,
         "incremental": true,
         "downlevelIteration": true,
-        "declarationMap": true
+        "declarationMap": true,
+        "baseUrl": ".",
+        "paths": { "@packages/*": ["./src/packages/*/"] },
     },
     "exclude": ["node_modules", "**/node_modules", "**/dist", "dist"]
 }
