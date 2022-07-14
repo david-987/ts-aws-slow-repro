@@ -1,0 +1,19 @@
+{
+    "name": "@packages/server",
+    "version": "1.0.0",
+    "lockfileVersion": 2,
+    "description": "server",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/esm/index.js"
+        }
+    },
+    "dependencies": {
+        "@slack/web-api": "~6.7.2"
+    },
+    "workspaces": [
+        "../packages/*"
+    ]
+}

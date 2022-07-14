@@ -1,0 +1,10 @@
+{
+    "name": "@packages/user2",
+    "version": "1.0.0",
+    "lockfileVersion": 2,
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "peerDependencies": {
+        "@packages/util": "file:../util"
+    }
+}

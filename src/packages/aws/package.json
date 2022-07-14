@@ -1,0 +1,7 @@
+{
+    "name": "@packages/aws",
+    "version": "1.0.0",
+    "lockfileVersion": 2,
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts"
+}
