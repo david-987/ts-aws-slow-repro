@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "esnext",
+        "outDir": "dist/esm"
+    },
+    "references": [
+        { "path": "../packages/user/tsconfig.esm.json" },
+        { "path": "../packages/user2/tsconfig.esm.json" },
+        { "path": "../packages/user3/tsconfig.esm.json" },
+        { "path": "../packages/user4/tsconfig.esm.json" },
+        { "path": "../packages/user5/tsconfig.esm.json" },
+        { "path": "../packages/user6/tsconfig.esm.json" },
+        { "path": "../packages/user7/tsconfig.esm.json" },
+        { "path": "../packages/user8/tsconfig.esm.json" },
+        { "path": "../packages/user9/tsconfig.esm.json" },
+        { "path": "../packages/util/tsconfig.esm.json" }
+    ]
+}
