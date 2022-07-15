@@ -1,17 +1,16 @@
 {
-    "extends": "../../settings.tsconfig.json",
-    "include": ["src/**/*"],
+    "extends": "../../tsconfig.settings.json",
     "compilerOptions": {
         "module": "commonjs",
-        "noEmit": false,
         "target": "ES2019",
+        "allowJs": true,
         "preserveSymlinks": true,
-        "baseUrl": ".",
         "outDir": "./dist",
         "rootDir": "./src/"
     },
     "references": [
         { "path": "../packages/aws" },
+        { "path": "../packages/util" },
         { "path": "../packages/user" },
         { "path": "../packages/user2" },
         { "path": "../packages/user3" },
@@ -20,7 +19,6 @@
         { "path": "../packages/user6" },
         { "path": "../packages/user7" },
         { "path": "../packages/user8" },
-        { "path": "../packages/user9" },
-        { "path": "../packages/util" }
+        { "path": "../packages/user9" }
     ]
 }

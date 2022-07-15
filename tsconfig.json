@@ -1,7 +1,6 @@
 {
     "files": [],
     "references": [
-        { "path": "src/server" },
-        { "path": "src/packages" }
+        { "path": "src/server" }
     ]
 }
