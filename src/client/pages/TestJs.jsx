@@ -6,7 +6,7 @@ const Page = ({ prop }) => {
     );
 };
 
-Privacy.getInitialProps = async () => {
+Page.getInitialProps = async () => {
     return { prop: '' };
 };
 
