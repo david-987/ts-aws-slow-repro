@@ -1,4 +1,7 @@
 {
     "name": "packages",
-    "description": "Parent"
+    "description": "Parent",
+    "scripts": {
+        "test": "export NODE_ENV=test && jest"
+    }
 }

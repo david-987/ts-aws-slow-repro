@@ -1,10 +1,18 @@
 {
     "extends": "../tsconfig.packages.json",
+    "include": ["src/**/*"],
     "compilerOptions": {
         "outDir": "dist/",
-        "rootDir": "src/",
+        "rootDir": "src/"
     },
     "references": [
-        { "path": "../util" }
+        { "path": "../user" },
+        { "path": "../user2" },
+        { "path": "../user3" },
+        { "path": "../user4" },
+        { "path": "../user5" },
+        { "path": "../user6" },
+        { "path": "../user7" },
+        { "path": "../user8" }
     ]
 }

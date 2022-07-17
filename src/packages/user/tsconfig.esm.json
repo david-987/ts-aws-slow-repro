@@ -3,5 +3,7 @@
     "compilerOptions": {
         "module": "esnext",
         "outDir": "dist/esm"
-    }
+    },
+    "exclude": ["dist/", "node_modules/", "src/**/*.*.test.*"],
+    "references": [{ "path": "../util/tsconfig.esm.json" }]
 }

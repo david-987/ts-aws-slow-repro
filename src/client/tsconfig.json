@@ -14,9 +14,20 @@
         "outDir": "dist/",
         "paths": {
             "client/*": ["./*"],
-            "server/*": ["../server/dist/*"]
+            "server/*": ["../server/dist/esm/*"]
         }
     },
-    "include": ["**/*"],
-    "references": [{ "path": "../server" }]
+    "references": [
+        { "path": "../packages/user" },
+        { "path": "../packages/user2" },
+        { "path": "../packages/user3" },
+        { "path": "../packages/user4" },
+        { "path": "../packages/user5" },
+        { "path": "../packages/user6" },
+        { "path": "../packages/user7" },
+        { "path": "../packages/user8" },
+        { "path": "../packages/user9" },
+        { "path": "../packages/util" }
+    ],
+    "include": ["**/*"]
 }

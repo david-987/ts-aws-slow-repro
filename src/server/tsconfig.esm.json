@@ -15,5 +15,6 @@
         { "path": "../packages/user8/tsconfig.esm.json" },
         { "path": "../packages/user9/tsconfig.esm.json" },
         { "path": "../packages/util/tsconfig.esm.json" }
-    ]
+    ],
+    "exclude": ["dist/", "node_modules/", "src/**/*.*.test.*", "jest.config.ts"]
 }

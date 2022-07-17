@@ -4,6 +4,14 @@
     "lockfileVersion": 2,
     "description": "server",
     "types": "dist/index.d.ts",
+    "scripts": {
+        "compile": "set NODE_OPTIONS=--max_old_space_size=8192 && tsc -b tsconfig.json tsconfig.esm.json",
+        "server": "nodemon --config server-config.json",
+        "server-debug": "nodemon --config server-debug-config.json",
+        "test": "export NODE_ENV=test && jest",
+        "unit-test": "export NODE_ENV=test && jest .unit.test.*",
+        "integrated-test": "export NODE_ENV=test && jest .integrated.test.*"
+    },
     "exports": {
         ".": {
             "require": "./dist/index.js",
