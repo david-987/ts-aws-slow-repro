@@ -4,7 +4,16 @@
     "lockfileVersion": 2,
     "description": "Client",
     "workspaces": [
-        "../packages/*"
+        "../packages/user",
+        "../packages/user2",
+        "../packages/user3",
+        "../packages/user4",
+        "../packages/user5",
+        "../packages/user6",
+        "../packages/user7",
+        "../packages/user8",
+        "../packages/user9",
+        "../packages/util"
     ],
     "dependencies": {
         "next": "~12.1.0",
