@@ -1,9 +1,0 @@
-{
-    "extends": "../tsconfig.packages.json",
-    "include": ["src/**/*"],
-    "compilerOptions": {
-        "outDir": "dist/",
-        "rootDir": "src/"
-    },
-    "references": [{ "path": "../util" }, { "path": "../user" }]
-}

@@ -1,5 +1,5 @@
 {
-    "name": "@packages/user8",
+    "name": "@packages/user",
     "version": "1.0.0",
     "lockfileVersion": 2,
     "main": "dist/index.js",
@@ -8,7 +8,6 @@
         "compile": "tsc -b tsconfig.esm.json tsconfig.json"
     },
     "peerDependencies": {
-        "@packages/util": "file:../util",
-        "@packages/user": "file:../user"
+        "@packages/util": "file:../util"
     }
 }
