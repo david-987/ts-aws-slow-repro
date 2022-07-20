@@ -1,7 +1,8 @@
 import S3 from 'aws-sdk/clients/s3';
 import { creds } from '@packages/aws';
-import { UtiLClass } from '@packages/util';
+import { UtiLClass, Optional } from '@packages/util';
 import { UserClass } from '@packages/user';
+import { BusinessClass } from '@packages/business';
 
 import { ExpressReceiver } from '@slack/bolt';
 
@@ -18,6 +19,10 @@ class ServerClass {
         const u = new UserClass();
         u.loader();
         s3.getObject(undefined);
+    }
+
+    private async testMethod(): Promise<Optional<BusinessClass>> {
+        return new UserClass().userMethod();
     }
 }
 

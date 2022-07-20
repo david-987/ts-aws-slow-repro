@@ -8,7 +8,7 @@ const s3 = new S3({
     credentialProvider: undefined,
 });
 
-class BusinessClasss {
+class BusinessClass {
     constructor() {}
 
     async loader() {
@@ -22,4 +22,4 @@ class BusinessClasss {
     }
 }
 
-export default BusinessClasss;
+export default BusinessClass;

@@ -1,3 +1,3 @@
-import BusinessClasss from './BusinessClass';
+import BusinessClass from './BusinessClass';
 
-export { BusinessClasss };
+export { BusinessClass };

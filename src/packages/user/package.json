@@ -8,6 +8,7 @@
         "compile": "tsc -b tsconfig.esm.json tsconfig.json"
     },
     "peerDependencies": {
+        "@packages/business": "file:../business",
         "@packages/util": "file:../util"
     }
 }

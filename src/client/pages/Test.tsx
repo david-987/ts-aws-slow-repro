@@ -1,5 +1,5 @@
 import React from 'react';
-import { BusinessClasss } from '@packages/business';
+import { BusinessClass } from '@packages/business';
 import { UtiLClass } from '@packages/util';
 import { UserClass } from '@packages/user';
 import MyModel from 'server/product/model';
@@ -15,7 +15,7 @@ const Page = ({ prop }: Props): React.ReactElement => {
 };
 
 Page.getInitialProps = async ({ req }) => {
-    const business = new BusinessClasss();
+    const business = new BusinessClass();
     const util = new UtiLClass();
     const r = util.test();
     return {

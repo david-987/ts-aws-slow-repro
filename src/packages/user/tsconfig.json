@@ -5,5 +5,5 @@
         "outDir": "dist/",
         "rootDir": "src/"
     },
-    "references": [{ "path": "../util" }]
+    "references": [{ "path": "../business" }, { "path": "../util" }]
 }
