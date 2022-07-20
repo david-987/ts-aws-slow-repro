@@ -17,6 +17,10 @@
             "server/*": ["../server/dist/esm/*"]
         }
     },
-    "references": [{ "path": "../packages/user" }, { "path": "../packages/util" }],
+    "references": [
+        { "path": "../packages/business" },
+        { "path": "../packages/user" },
+        { "path": "../packages/util" }
+    ],
     "include": ["**/*"]
 }
