@@ -1,19 +1,21 @@
 {
-  "name": "aws-sdk-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "~2.1171.0",
-    "@slack/bolt": "~3.11.3",
-    "@slack/web-api": "~6.7.2"
-  },
-  "devDependencies": {
-    "typescript": "~4.7.4"
-  }
+    "name": "aws-sdk-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "~2.1171.0",
+        "@slack/bolt": "~3.11.3",
+        "@slack/web-api": "~6.7.2"
+    },
+    "devDependencies": {
+        "typescript": "~4.7.4",
+        "prettier": "~2.7.1",
+        "prettier-plugin-jsdoc": "~0.3.31"
+    }
 }

@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "debug": false,
+    "exec": "npm run compile && node dist/index.js",
+    "watch": ["src/", "../package/*"],
+    "ignore": ["**/node_modules/", "**/dist/", "**/*.tsbuildinfo", "**/package*.json"],
+    "ext": "ts, js",
+    "inspect": true
+}

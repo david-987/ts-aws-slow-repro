@@ -1,0 +1,9 @@
+{
+    "extends": "../../settings.tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2019",
+        "allowJs": true,
+        "preserveSymlinks": true
+    }
+}

@@ -2,8 +2,29 @@
     "name": "@packages/util",
     "version": "1.0.0",
     "lockfileVersion": 2,
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "scripts": {
+        "compile": "tsc -b tsconfig.esm.json tsconfig.json"
+    },
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/esm/index.js"
+        },
+        "./core": {
+            "require": "./dist/core/index.js",
+            "import": "./dist/esm/core/index.js"
+        }
+    },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "./dist/index.d.ts"
+            ],
+            "core": [
+                "./dist/core/index.d.ts"
+            ]
+        }
+    },
     "peerDependencies": {
         "@packages/aws": "file:../aws"
     }

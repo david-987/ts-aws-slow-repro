@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "debug": false,
+    "exec": "ts-node ./src/index.js",
+    "ignore": ["node_modules/", "dist/"],
+    "watch": ["src/"],
+    "ext": "ts, js"
+}

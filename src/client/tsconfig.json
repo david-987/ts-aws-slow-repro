@@ -1,0 +1,22 @@
+{
+    "extends": "../../settings.tsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "strict": false,
+        "noEmit": true,
+        "allowJs": true,
+        "module": "esnext",
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "dist/",
+        "paths": {
+            "client/*": ["./*"],
+            "server/*": ["../server/dist/esm/*"]
+        }
+    },
+    "references": [{ "path": "../packages/user" }, { "path": "../packages/util" }],
+    "include": ["**/*"]
+}
