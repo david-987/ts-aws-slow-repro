@@ -25,8 +25,5 @@
                 "./dist/core/index.d.ts"
             ]
         }
-    },
-    "peerDependencies": {
-        "@packages/aws": "file:../aws"
     }
 }
