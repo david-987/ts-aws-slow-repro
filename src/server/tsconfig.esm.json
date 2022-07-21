@@ -6,6 +6,7 @@
     },
     "references": [
         { "path": "../packages/user/tsconfig.esm.json" },
+        { "path": "../packages/business/tsconfig.esm.json" },
         { "path": "../packages/util/tsconfig.esm.json" }
     ],
     "exclude": ["dist/", "node_modules/", "src/**/*.*.test.*", "jest.config.ts"]

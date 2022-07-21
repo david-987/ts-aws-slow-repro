@@ -6,12 +6,15 @@ const s3 = new S3({
     credentialProvider: creds,
 });
 
-
-class UtiLClass {
-    constructor() {};
+class UtiLClass<T> {
+    constructor() {}
     async test() {
-        const receiver = new ExpressReceiver({ signingSecret: ''});
+        const receiver = new ExpressReceiver({ signingSecret: '' });
         s3.getObject(undefined);
+    }
+
+    get(): T {
+        throw Error();
     }
 }
 

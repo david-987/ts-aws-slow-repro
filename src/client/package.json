@@ -4,6 +4,7 @@
     "lockfileVersion": 2,
     "description": "Client",
     "workspaces": [
+        "../packages/business",
         "../packages/user",
         "../packages/util"
     ],

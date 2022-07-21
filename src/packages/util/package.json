@@ -15,6 +15,7 @@
             "import": "./dist/esm/core/index.js"
         }
     },
+    "types": "dist/index.d.ts",
     "typesVersions": {
         "*": {
             "*": [
@@ -24,8 +25,5 @@
                 "./dist/core/index.d.ts"
             ]
         }
-    },
-    "peerDependencies": {
-        "@packages/aws": "file:../aws"
     }
 }

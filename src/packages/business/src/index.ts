@@ -1,4 +1,3 @@
-import UserClass from './UserClass';
+import BusinessClass from './BusinessClass';
 
-
-export { UserClass };
+export { BusinessClass };

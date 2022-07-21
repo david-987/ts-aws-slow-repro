@@ -6,8 +6,5 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "compile": "tsc -b tsconfig.esm.json tsconfig.json"
-    },
-    "peerDependencies": {
-        "@packages/util": "file:../util"
     }
 }

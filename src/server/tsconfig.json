@@ -12,6 +12,7 @@
     },
     "references": [
         { "path": "../packages/aws" },
+        { "path": "../packages/business" },
         { "path": "../packages/user" },
         { "path": "../packages/util" }
     ]
